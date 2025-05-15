@@ -10,4 +10,4 @@ numero = 0
 while numero < 30:
     numero += 2
     print(numero)
-print("Execução Finalizada")dd
+print("Execução Finalizada")
