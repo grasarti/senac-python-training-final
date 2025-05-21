@@ -1,5 +1,8 @@
+# definir a função
 def Repetir(palavra, numero):
+    #variavel que multiplica a string pelo numero passado como parametro
     stringTotal = (palavra * numero)
+    # variavel que inicia em zero para posteriormente ser usado como controle
     linha = 0
     while linha < numero:
         coluna = 0

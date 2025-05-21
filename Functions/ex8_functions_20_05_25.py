@@ -7,6 +7,7 @@ def triangulo(x):
 
 triangulo(5)
 
+
 def triangulo(x):
     contador = 0
     while contador < x:

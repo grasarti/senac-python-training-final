@@ -1,10 +1,11 @@
-# crie uma função chamada linha que:
-# receba 2 parâmetros:
-#     Um número inteiro (tamanho da linha)
-#     Uma string (que será o caractere a ser usado)
+# Crie uma função chamada linha que:
+# Receba 2 parâmetros:
+#     - Um número inteiro (tamanho da linha)
+#     - Uma string (que será o caractere a ser usado)
 
 # Imprima um linha com o caractere reptido n vezes;
 # Se a string for fazia, use *
+
 
 def linha(n, caractere):
     if caractere == "":
