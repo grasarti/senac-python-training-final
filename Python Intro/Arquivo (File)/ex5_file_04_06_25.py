@@ -1,6 +1,6 @@
 # Ler um arquivo dados.csv que tem nome e idade separados por vírgula
 # Criar um novo arquivo chamado dados_maiores.csv
-#     com apenas as pessoas com 18 anos ou mais
+# com apenas as pessoas com 18 anos ou mais
 
 
 with open("Arquivo (File)/dados.csv", "r", encoding="utf-8") as entrada:
@@ -15,7 +15,7 @@ with open("Arquivo (File)/dados.csv", "r", encoding="utf-8") as entrada:
                
   
            
-# strip() remove espaços e \n no final das linhas.
-# split(",") separa os valores da linha.
-# int(idade) converte o valor da idade para número inteiro.
-# write() grava a linha no novo arquivo.
+# strip() remove espaços e \n no final das linhas
+# split(",") separa os valores da linha - cada linha ele transforma numa lista
+# int(idade) converte o valor da idade para número inteiro
+# write() grava a linha no novo arquivo
